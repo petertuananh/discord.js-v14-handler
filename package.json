@@ -1,0 +1,57 @@
+{
+  "name": "yourauthbot",
+  "version": "2.0.0",
+  "description": "A Discord protector bot by Discord.js",
+  "main": "yourauth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Your-Auth"
+  },
+  "keywords": [
+    "Your",
+    "Auth",
+    "Bot"
+  ],
+  "devDependencies": {
+    "node": "^16.7.0"
+  },
+  "engines": {
+    "node": ">=16.7.0"
+  },
+  "author": "Tuan Anh & Minh Duc",
+  "license": "ISC",
+  "dependencies": {
+    "@puckwang/qr-code": "^1.0.5",
+    "ascii-table": "^0.0.9",
+    "axios": "^0.27.2",
+    "better-sqlite3": "^7.5.3",
+    "canvas": "^2.9.1",
+    "cookie-parser": "^1.4.6",
+    "cron": "^2.0.0",
+    "discord-backup": "^3.2.1",
+    "discord-giveaways": "^5.2.2",
+    "discord-html-transcripts": "^2.5.8",
+    "discord.js": "^14.6.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "google-tts-api": "^2.0.2",
+    "i18n": "^0.15.1",
+    "memorystore": "^1.6.7",
+    "moment": "^2.29.3",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.3",
+    "mysql": "^2.18.1",
+    "node-2fa": "^2.0.3",
+    "node-cache": "^5.1.2",
+    "os": "^0.1.2",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4",
+    "qrcode": "^1.5.1",
+    "quick.db": "^9.0.5",
+    "systeminformation": "^5.16.5"
+  }
+}

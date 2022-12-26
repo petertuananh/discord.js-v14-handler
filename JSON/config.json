@@ -1,0 +1,66 @@
+{
+    "bot" : {
+        "basic" : {
+            "token" : "",
+            "secret" : ""
+        },
+        "beta" : {
+            "token" : "",
+            "secret" : ""
+        }
+    },
+    "dashboard" : {
+        "port" : 8888,
+        "domain" : "https://yourauth.vn"
+    },
+    "setting" : {
+        "internalAPI" : {
+            "port" : 5555
+        },
+        "supportGuildId" : "890741284745138226",
+        "globalExecutor" : [
+            "786569661231005716", 
+            "935854694914461806", 
+            "503470783213993987", 
+            "817229550684471297", 
+            "561701757386752013",
+            "984113692025167902"
+        ],
+        "devMode": false,
+        "presence": {
+            "status": "online",
+            "phone": false,
+            "activity": "From Viet Nam | Version 3.0",
+            "type": "STREAMING",
+            "url" : "https://www.twitch.tv/"
+        },
+        "prefix": "y!",
+        "shard": 5,
+        "defaultMaxListeners": 15,
+        "timeoutEvent": 30000,
+        "leaveLimit" : 30
+    },
+    "roles" : {
+        "voter" : "998905181385277460"
+    },
+    "owner" : ["786569661231005716", "561701757386752013", "503470783213993987"],
+    "infomation" : {
+        "supportId" : "890741284745138226",
+        "support": "https://discord.gg/Cah38jHxxP",
+        "docs" : "https://wiki.yourauth.vn/"
+    },
+    "database": {
+        "mysql": {
+            "host": "",
+            "user": "",
+            "password": "",
+            "database": "",
+            "supportBigNumbers": true,
+            "bigNumberStrings": true,
+            "multipleStatements": true,
+            "charset": "utf8mb4_general_ci",
+            "connectionLimit" : 1
+        }
+    }
+
+}
